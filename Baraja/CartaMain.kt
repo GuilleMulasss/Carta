@@ -1,4 +1,4 @@
-package Baraja
+package sisis
 
 fun main(args: Array<String>) {
     println("Baraja.Carta numero 1:")
