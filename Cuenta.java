@@ -78,7 +78,7 @@ public class Cuenta {
 
     }
      /*
-      public static void main(String[] args) {
+      public static void Baraja.main(String[] args) {
         // TODO code application logic here
         Cuenta c1=new Cuenta(1000.0, 12345678,1234 );
         c1.modificar_saldo(-200.0);

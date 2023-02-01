@@ -1,4 +1,5 @@
 fun main(args: Array<String>) {
+    /*
     println("Título del libro")
     val titulo1 = readln()
     println("Autor del libro")
@@ -15,5 +16,12 @@ fun main(args: Array<String>) {
 
     libro1.mostrarLibro()
 
+     */
+
+    val CuentaPrueba = Cuenta(12345,1000)
+
+    CuentaPrueba.mostrarCuentaSaldo()
+    CuentaPrueba.cambiarSaldo()
+    CuentaPrueba.mostrarCuentaSaldo()
 }
 
