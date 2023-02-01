@@ -15,6 +15,10 @@ fun main(args: Array<String>) {
 
     carta1.compararCarta(carta2)
 
+    carta2.compararCarta(carta1)
+
+
+
     /*
     println("Baraja.Carta numero 2:")
     val numero2 = readln().toInt()
