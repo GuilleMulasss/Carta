@@ -9,14 +9,16 @@ fun main(args: Array<String>) {
     carta1.mostrarCarta()
 
     val carta2= Carta(carta1)
+    val carta3= Carta(carta1)
     carta2.numero = 7
     carta2.palo = 'T'
     carta2.mostrarCarta()
+    carta3.numero = 10
+    carta3.palo = 'C'
 
     carta1.compararCarta(carta2)
-
-    carta2.compararCarta(carta1)
-
+    carta3.compararCarta(carta1)
+    carta3.compararCarta(carta2)
 
 
     /*
