@@ -16,6 +16,8 @@ class Carta(Minumero: Int, mipalo: Char) {
             //'C','P', 'R', 'T'
             val l = listOf<Char>('C', 'P', 'R', 'T')
             if (value !in l) {
+
+
                 println("Palo de carta inválido.")
             } else
                 field = value
